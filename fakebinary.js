@@ -3,7 +3,7 @@
 function fakeBin(digits){
     var arr = digits.split("")
     var bin = arr.map(val => {
-        if(+val < 5){
+        if(val < 5){
             return 0
         }
         return 1
