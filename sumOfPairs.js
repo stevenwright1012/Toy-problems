@@ -13,6 +13,3 @@ var sum_pairs=function(ints, s){
     }
     return temp;
 }
-
-let test = sum_pairs([10, 5, 2, 3, 7, 5], 10);
-test
